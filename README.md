@@ -9,6 +9,7 @@ This is a start-up project forked from [Serenity](https://github.com/serenity-bd
     - Update your local Chrome browser to the latest version 
     - Download the corresponding `chromedriver.exe` from [here](https://chromedriver.chromium.org/downloads) and place that here: `\src\test\resources\webdriver\windows\chromedriver.exe`
     - Add the `CSS Selector Helper for Chrome` extension to you Chrome browser from [here](https://chrome.google.com/webstore/detail/css-selector-helper-for-c/gddgceinofapfodcekopkjjelkbjodin?hl=en)
+    - To turn on/off headless mode edit `headless.mode` property in `\src\test\resources\serenity.conf`   
  
 - Maven
     - Install Mavan on your local computer if not installed already and add that to you path (e.g., on Windows: C:\Dev\Tools\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin)     
