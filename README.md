@@ -1,3 +1,30 @@
+# Quick setup notes 
+
+This is a start-up project forked from [Serenity](https://github.com/serenity-bdd/serenity-cucumber-starter)  
+
+- IDE - Eclipse 
+    - Open the project directory from Eclipse `File > Open Projects from File System...`
+
+- Chrome driver and extension 
+    - Update your local Chrome browser to the latest version 
+    - Download the corresponding `chromedriver.exe` from [here](https://chromedriver.chromium.org/downloads) and place that here: `\src\test\resources\webdriver\windows\chromedriver.exe`
+    - Add the `CSS Selector Helper for Chrome` extension to you Chrome browser from [here](https://chrome.google.com/webstore/detail/css-selector-helper-for-c/gddgceinofapfodcekopkjjelkbjodin?hl=en)
+ 
+- Maven
+    - Install Mavan on your local computer if not installed already and add that to you path (e.g., on Windows: C:\Dev\Tools\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin)     
+    - Run `mvn clean` to clean the project  
+    - Run `mvn package` to create package for the project 
+ 
+- Running and debugging tests
+    - Run `mvn verify` to run the tests   
+    - Specifying environments `mvn clean verify -Denvironment=staging`
+    - Run tests from Eclipse using `Run > Run As > JUnit Test`
+    - Debug tests from Eclipse using `Run > Debug As > JUnit Test`
+ 
+- Resources 
+    - [Serenity Book](https://serenity-bdd.github.io/theserenitybook/latest/index.html) 
+ 
+
 # Getting started with Serenity and Cucumber
 
 Serenity BDD is a library that makes it easier to write high quality automated acceptance tests, with powerful reporting and living documentation features. It has strong support for both web testing with Selenium, and API testing using RestAssured. 
